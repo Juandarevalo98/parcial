@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de destino"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etNombreDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Presupuesto"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/sbPresupuesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="3000000" />
+
+    <TextView
+        android:id="@+id/tvPresupuesto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total de presupuesto: " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de inicio"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etFechaInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de Finalización"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etFechaFin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actividades"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etActividades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lugares a visitar"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etLugaresVisitar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnAgregarViaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+        android:text="Guardar" />
+
+</LinearLayout>
